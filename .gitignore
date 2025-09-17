@@ -1,0 +1,44 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.DotSettings.user
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure Functions
+local.settings.json
+local.settings.development.json
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# macOS
+.DS_Store
+
+# Dependencies
+*.dll
+*.pdb
+*.exe
+*.cache
+*.CopyComplete
